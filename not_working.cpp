@@ -44,7 +44,8 @@ typedef vector<vi> vvi;
 typedef vector<vl> vvl;
 
 void solve() {
-  int n, x, res = 0;
+  int n, x, res;
+  res = 0;
   cin >> n;
   vi v(n);
 
