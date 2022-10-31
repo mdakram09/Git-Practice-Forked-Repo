@@ -11,7 +11,7 @@ int main()
    int n = v.size();
     // sort in descending order
     sort(v.begin(),v.end(), compare);
-    cout << "Vector sorted in descending order is: \n";
+    cout << "The vector sorted in descending order is: \n";
     for (int i = 0; i < n; i++)
         cout << v[i] << " ";
     return 0;
